@@ -8,17 +8,16 @@
 
 // -------------------------------------------------------------------------------
 
-
-
 // -------------------------------------------------------------------------------
 
 int main()
 {
-    LinkedList<int> l{};    
+    LinkedList<int> l{};
     l.InsertNode(10);
+    // l.InsertNode(10);
     l.InsertNode(0);
     l.InsertNode(100);
     l.PrintLinkedList();
-
-    
+    std::cout << "\n\n";
+    std::cout << l.GetHead() << std::endl;
 }
