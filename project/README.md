@@ -1,28 +1,11 @@
 # PROJECT DOCUMENTATION
 
-## THE PROBLEM
+## THE PROJECT
 
 <u>**IMPORTANT**</u> - Commented sections are just to bring up to light the real understanding of what is being done.
 Sometimes, it is used for referencing and others to explicitly document some functionality. 
 
-<!-- This project is based in the **Udacity’s Self Driving Car Nanodegree - Vehicle Detection and Tracking using Machine Learning and HOG**. 
-In my version, all functionalities are going to be implemented in C++.  -->
-
-<!-- The problem consist in a basic cat detection and tracking. To achieve this result, a dataset with images of cats and dogs were downloaded from *Kaggle* in [here](https://www.kaggle.com/tongpython/cat-and-dog).
-
-The tasks are enumerated below: -->
-
-<!-- <ul>
-  <li>Preproccess the dataset</li>
-  <ul>
-    <li>Implement a Histogram class to operate in a 3 channel image</li>
-    <li>Implement a Image Handler class to operate over the images </li>
-  </ul>
-  <li>Neural network</li>
-  <ul>
-    <li> Implement a simple neural network know as *logistic regression* for binary classification </li> 
-  </ul>
-</ul> -->
+This project implements a *simple linked list* that behaves like a *stack*. The user interacts with a menu that allows him to create it's own list, print it, and save in a file called output.txt in the build folder. 
 
 ---
 
@@ -51,7 +34,7 @@ root
 
 :small_orange_diamond: **NODE**
 
-The Node class implement a single node that will compose the LinkedList class. It's composed by a <u>unique_ptr</u> to itself and <u>generic</u> type of data.
+The Node class implements a single node that will compose the LinkedList class. It's composed by a <u>unique_ptr</u> to itself and a <u>generic</u> type of data. The structure implements also it's constructors with memeber initialization.
 
 :small_orange_diamond: **LINKEDLIST**
 
@@ -66,17 +49,17 @@ The LINKEDLIST class implements a single linked list with a head node at the beg
 <!-- :heavy_check_mark: -->
 
 <ol> 
-  <li>:x: README</li>
-  <li>:x: Compiling and Testing</li>
+  <li>:heavy_check_mark: README</li>
+  <li>:heavy_check_mark: Compiling and Testing</li>
 </ol>
 
-#### SATISFIED
+#### SATISFIED (AT LEAST FIVE CHECK MARKS) 
 
 :arrow_right: <u>Loops, Functions, I/O</u>
 <ol> 
-  <li>:x: The project demonstrates an understanding of C++ functions and control structures</li>
-  <li>:x: The project reads data from a file and process the data, or the program writes data to a file</li>
-  <li>:x: The project accepts user input and processes the input</li>
+  <li>:heavy_check_mark: The project demonstrates an understanding of C++ functions and control structures</li>
+  <li>:heavy_check_mark: The project reads data from a file and process the data, or the program writes data to a file</li>
+  <li>:heavy_check_mark: The project accepts user input and processes the input</li>
 </ol>
 
 :arrow_right: <u>Object Oriented Programming</u>
@@ -94,7 +77,7 @@ The LINKEDLIST class implements a single linked list with a head node at the beg
 
 :arrow_right: <u>Memory Management</u>
 <ol> 
-  <li>:x: The project makes use of references in functions declarations</li>
+  <li>:heavy_check_mark: The project makes use of references in functions declarations</li>
   <li>:heavy_check_mark: The project uses destructors appropriatly</li>
   <li>:x: The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate</li>
   <li>:x: The project follows the Rule of 5</li>

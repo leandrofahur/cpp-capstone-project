@@ -1,6 +1,7 @@
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 
+#include <fstream>
 #include "Node.h"
 
 template <class T>
@@ -52,6 +53,7 @@ public:
         T data = this->GetHeadData();
         std::unique_ptr<Node<T>> tmp = std::move(this->head);
         this->head = std::move(tmp->next);
+        this->numOfNodes--;
         return data;       
     }
 
@@ -69,6 +71,21 @@ public:
     {
         return this->head->data;
     }
+
+    std::size_t GetNumOfNodes()
+    {
+        return this->numOfNodes;
+    }
 };
+
+template<class T>
+std::ostream& operator << (std::ostream& stream, LinkedList<T> &l)
+{
+    while(l.GetNumOfNodes() > 0)
+    {
+        stream << l.RemoveNode() << " ";
+    }
+    return stream;
+}
 
 #endif // LINKED_LIST_H
