@@ -12,12 +12,18 @@
 
 int main()
 {
-    LinkedList<int> l{};
-    l.InsertNode(10);
-    // l.InsertNode(10);
-    l.InsertNode(0);
-    l.InsertNode(100);
-    l.PrintLinkedList();
-    std::cout << "\n\n";
-    std::cout << l.GetHead() << std::endl;
+    // LinkedList<int> l{};
+    
+    // l.InsertNode(0);
+    // l.InsertNode(1);
+    // l.InsertNode(2);
+    // l.InsertNode(3);
+    
+    // l.PrintLinkedList();
+    // // std::cout << "\n";
+    // // std::cout << l.GetHeadData() << std::endl;
+
+    // std::cout << "\n";
+    // std::cout << l.RemoveNode() << std::endl;
+    // l.PrintLinkedList();
 }
