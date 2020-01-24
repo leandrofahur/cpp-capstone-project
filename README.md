@@ -25,22 +25,22 @@ There will be a README.md file inside the project folder as a documentation of i
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
-* OpenCV >= 4.1
-  * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
+<!-- * OpenCV >= 4.1
+  * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0) -->
 
 ---
 
-## CONFIGURATION INSTRUCTIONS FOR OPENCV 4.1.0
+## CONFIGURATION INSTRUCTIONS THIRD PARTIES
 
-<!-- There is no need to configure third parties for this project. -->
+There is no need to configure third parties for this project.
 
-You can find tutorials on how to configure and compile the third party [here](https://docs.opencv.org/4.1.0/df/d65/tutorial_table_of_content_introduction.html).
+<!-- You can find tutorials on how to configure and compile the third party [here](https://docs.opencv.org/4.1.0/df/d65/tutorial_table_of_content_introduction.html).
 
 For OpenCV:
 
 ```bash
 $ sudo apt-get install libcanberra-gtk-module
-```
+``` -->
 
 ---
 
