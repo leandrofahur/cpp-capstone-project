@@ -39,17 +39,23 @@ root
 |   |   CMakLists.txt
 |   | 
 │   └───include
-│   │   (...)
+│   │   LinkedList.h
+|   |   Node.h
 |   │   
 │   └───src
 │   │   main.cpp
 
 ```
 
-<!-- ℹ️ Classes Information:
-<ul>
-  <li></li>
-</ul> -->
+ℹ️ Classes Information:
+
+:small_orange_diamond: **NODE**
+
+The Node class implement a single node that will compose the LinkedList class. It's composed by a <u>unique_ptr</u> to itself and <u>generic</u> type of data.
+
+:small_orange_diamond: **LINKEDLIST**
+
+The LINKEDLIST class implements a single linked list with a head node at the beggining. The InsertNode method create and push a node object into the head of the list, The PrintList method exhibits the data of all the nodes inside the list, and the RemoveNode returns the node data of the head and shift it to the next in the list.
 
 ---
 
@@ -75,25 +81,25 @@ root
 
 :arrow_right: <u>Object Oriented Programming</u>
 <ol> 
-  <li>:x: The project uses Oriented Programming techniques</li>
-  <li>:x: Classes use appropriate access specifiers for class members</li>
-  <li>:x: Class constructors utilize member initialization lists</li>
+  <li>:heavy_check_mark: The project uses Oriented Programming techniques</li>
+  <li>:heavy_check_mark: Classes use appropriate access specifiers for class members</li>
+  <li>:heavy_check_mark: Class constructors utilize member initialization lists</li>
   <li>:x: Classes abstract implementation details from their interfaces</li>
-  <li>:x: Classes encapsulate behavior</li>
-  <li>:x: Classes follow an appropriate inheritance hierarchy</li>
+  <li>:heavy_check_mark: Classes encapsulate behavior</li>
+  <li>:heavy_check_mark: Classes follow an appropriate inheritance hierarchy</li>
   <li>:x: Overloaded functions allow the same function to operate on different parameters</li>
   <li>:x: Derived class functions override virtual base class functions</li>
-  <li>:x: Templates generalize functions in the project</li>
+  <li>:heavy_check_mark: Templates generalize functions in the project</li>
 </ol>
 
 :arrow_right: <u>Memory Management</u>
 <ol> 
   <li>:x: The project makes use of references in functions declarations</li>
-  <li>:x: The project uses destructors appropriatly</li>
+  <li>:heavy_check_mark: The project uses destructors appropriatly</li>
   <li>:x: The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate</li>
   <li>:x: The project follows the Rule of 5</li>
-  <li>:x: The project uses move semantics to move data, instead of copying it, where possible</li>
-  <li>:x: The project uses smart pointers instead of raw pointers</li>
+  <li>:heavy_check_mark: The project uses move semantics to move data, instead of copying it, where possible</li>
+  <li>:heavy_check_mark: The project uses smart pointers instead of raw pointers</li>
 </ol>
 
 :arrow_right: <u>Concurrency</u>

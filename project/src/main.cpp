@@ -12,7 +12,18 @@
 
 int main()
 {
-    // LinkedList<int> l{};
+    
+}
+
+
+
+
+
+
+
+
+
+// LinkedList<int> l{};
     
     // l.InsertNode(0);
     // l.InsertNode(1);
@@ -26,4 +37,3 @@ int main()
     // std::cout << "\n";
     // std::cout << l.RemoveNode() << std::endl;
     // l.PrintLinkedList();
-}
